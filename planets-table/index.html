@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="author" content="John Durham">
+        <meta name="author" content="Cade Palmen">
         <link href="css/style.css" rel="stylesheet" type="text/css">
     </head>
     <body>
@@ -18,9 +18,16 @@
                 
                 <table>
                     <caption></caption>
+                    <colgroup>
+                        <col title="Mass">
+                        <col title="Diameter">
+                        <col title="Distance">
+                    </colgroup>
                     <thead>
                         <tr>
-                            <th></th>
+                            <th scope="col">Mass</th>
+                            <th scope="col">Diameter</th>
+                            <th scope="col">Distance</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -40,7 +47,6 @@
                             <td></td>
                         </tr>
                     </tbody>
-                    <tfoot></tfoot>
                 </table>
 
                 <!-- The caption element should be the first child of the table element, and wrap the following text and link.-->
