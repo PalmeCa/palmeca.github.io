@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Cade Palmen">
+        <link href="css/style.css" rel="stylesheet">
+        <title>CSS PLayground</title>
+    </head>
+    <body>
+        <header>
+            <h1 class="heading color">Bob</h1>
+        </header>
+        <header>
+            <p1></p1>
+        </header>
+        <header>
+            <p2></p2>
+        </header>
+            <p3></p3>
+        <footer>
+            <p>&copy;</P>
+    </footer>
+</body>
+</html>
