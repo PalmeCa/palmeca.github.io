@@ -163,5 +163,8 @@ img {
 /* Footer */
 footer {
     border-top: 2rem solid #333;
-    padding: 2rem, 1rem, 1rem, 1rem;
+    padding-top: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
 }
