@@ -160,4 +160,4 @@ img {
 footer {
     padding: 2rem, 1rem, 1rem, 1rem;
 }
-div {border-top-style: solid; color:#333}
+footer > div {border-top-style: solid; color:#333}
