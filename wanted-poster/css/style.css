@@ -165,7 +165,7 @@ img {
 
 /* Footer */
 footer {
-    border-top-style: sold;
+    border-top-style: solid;
     border-top: 2rem, #333;
     padding-top: 2rem;
     padding-left: 1rem;
