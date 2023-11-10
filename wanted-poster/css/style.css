@@ -162,6 +162,6 @@ img {
 
 /* Footer */
 footer {
+    border-top: 2rem solid #333;
     padding: 2rem, 1rem, 1rem, 1rem;
 }
-footer > div {border-top-style: solid; color:#333}
