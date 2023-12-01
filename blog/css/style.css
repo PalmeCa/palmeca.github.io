@@ -137,7 +137,7 @@
             figcaption {
             
                 padding-top:.5rem;
-                text-align: right;
+                text-align: left;
             
             }
             
@@ -145,8 +145,7 @@
             
                 width:50%;
                 margin:0 auto;
-                max-width:50rem;
-                align-content: right;
+                max-width:40rem;
             
             }
             
