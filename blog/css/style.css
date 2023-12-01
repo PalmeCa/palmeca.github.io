@@ -87,10 +87,11 @@
             p { 
                 text-align: justify; 
                 font-size: 25px; 
+                padding: 2rem
               } 
 
             h3 {
-                font: size 12px;
+                font: size 25px;
                 margin: 0;
                 letter-spacing: .15rem;
                 color:#000;
