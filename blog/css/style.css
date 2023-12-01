@@ -139,12 +139,22 @@
             }
             
             /* Footer */
-            footer {
+            /*footer {
                 padding: 1rem;
-                position: static;
+                position: relative;
                 width: 100%;
                 border-top: .15rem solid #000;
 
+            }*/
+            
+            footer {
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            background-color: grey;
+            color: white;
+            text-align: center;
             }
 /*
             - text-decoration, text-align
