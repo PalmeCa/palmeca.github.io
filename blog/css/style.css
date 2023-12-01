@@ -81,11 +81,11 @@
             }
 
             h3 {
-                font-size:2rem;
+                font: size 12px;
                 margin: 0;
                 letter-spacing: .5rem;
                 color:#000;
-               /* font-family:'Alfa Slab One', Garamond, serif;*/
+                font-family:'Roboto',sans-serif;
                 text-align:center;
                 font-weight: normal;
 
