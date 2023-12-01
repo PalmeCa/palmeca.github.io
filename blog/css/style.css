@@ -131,7 +131,6 @@
             
             /* Image & Figure */
            aside {
-            
             text-align: right;
            }
             
@@ -155,6 +154,7 @@
             footer {
                 padding: 1rem;
                 border-top: .15rem solid #000;
+                text-align: end;
 
             }
 /*
