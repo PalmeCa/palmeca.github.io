@@ -30,6 +30,11 @@
                 font-style:normal;
                 font-weight:normal;
             }
+
+            aside {
+                text-align: right;
+               }
+
             h1 {
                 text-transform: uppercase;
                 padding: 3rem;
@@ -130,9 +135,6 @@
             }
             
             /* Image & Figure */
-           aside {
-            text-align: right;
-           }
             
             figcaption {
             
@@ -153,7 +155,7 @@
             footer {
                 padding: 1rem;
                 border-top: .15rem solid #000;
-                text-align: end;
+                text-align: bottom;
 
             }
 /*
