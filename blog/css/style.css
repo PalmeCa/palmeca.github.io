@@ -56,6 +56,7 @@
                 .leftcolumn {
                     float: left;
                     width: 75%;
+                    text-wrap: wrap;
                 }
                 
                 /* Right column */
@@ -151,6 +152,7 @@
             footer {
                 padding: 1rem;
                 border-top: 2rem solid #333;
+                text-align: right;
             }
 /*
             - text-decoration, text-align
