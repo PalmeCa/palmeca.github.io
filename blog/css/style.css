@@ -116,16 +116,6 @@
             
             }
             
-            p {
-            
-                margin:1rem auto;
-                padding:0 1rem;
-                width:90%;
-                text-align: left;
-            
-            }
-            
-            
             /* Image & Figure */
             
             figure {
@@ -143,9 +133,10 @@
             
             img {
             
-                width:100%;
+                width:50%;
                 margin:0 auto;
                 max-width:50rem;
+                align-content: right;
             
             }
             
