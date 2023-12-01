@@ -130,7 +130,10 @@
             }
             
             /* Image & Figure */
-           
+           aside {
+            
+            text-align: right;
+           }
             
             figcaption {
             
