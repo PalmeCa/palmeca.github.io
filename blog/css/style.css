@@ -61,14 +61,14 @@
                 .leftcolumn {
                     float: left;
                     width: 75%;
-                    text-wrap: wrap;
+                    text-wrap: justify;
                 }
                 
                 /* Right column */
                 .rightcolumn {
-                    float: right;
+                    float: left;
                     width: 25%;
-                    padding-left: 20px;
+                    padding: 10px;
                 }
 
             nav {
@@ -113,17 +113,6 @@
                 Padding-right: 0.5rem;
             }
             
-            h5 {
-             
-                font-size:1rem;
-                margin-top:.25rem;
-                padding:.5rem;
-                background-color: #333;
-                color:#FFF;
-                text-align:center;
-                font-weight: normal;
-            
-            }
             
             
             /* Section & Paragraph */
@@ -155,7 +144,6 @@
             footer {
                 padding: 1rem;
                 border-top: .15rem solid #000;
-                text-align: bottom;
 
             }
 /*
