@@ -18,15 +18,15 @@
             - font-family, font-size, font-style, font-weight */
 
             @font-face {
-                font-family:Lato;
-                src: url(C:\Users\Cpalm\OneDrive\Documents\GitHub\palmenc.github.io\blog\fonts\sans-serif\roboto-regular.ttf);
+                font-family:Roboto;
+                src: url(../fonts/sans-serif/roboto-regular.ttf);
                 font-style:normal;
                 font-weight:normal;
             }
             @font-face {
             
                 font-family:Josefine Slab;
-                src: url(C:\Users\Cpalm\OneDrive\Documents\GitHub\palmenc.github.io\blog\fonts\serif\josefinslab-regular.ttf);
+                src: url(../fonts/serif/josefinslab-regular.ttf);
                 font-style:normal;
                 font-weight:normal;
             }
@@ -37,7 +37,7 @@
                 letter-spacing: .5rem;
                 color:#000;
                 /*text-shadow:.09375rem .09375rem .09375rem #000;*/
-                /*font-family:'Alfa Slab One', Garamond, serif;*/
+                font-family:'Roboto',sans-serif;
                 text-align:center;
             }
             
@@ -48,7 +48,7 @@
                 letter-spacing: .25rem;
                 color:#000;
                 text-shadow:.09375rem .09375rem .09375rem #000;
-                /*font-family:'Alfa Slab One', Garamond, serif;*/
+                font-family:'Josefine Slab', serif;
                 text-align:left;
                 font-weight: normal;
             }
@@ -62,6 +62,7 @@
                 text-align:left;
                 border-top: .5rem solid #000;
                 border-bottom: .5rem solid #000;
+                font-family:'Roboto',sans-serif;
             }
 
             h3 {
