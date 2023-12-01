@@ -141,6 +141,9 @@
             /* Footer */
             footer {
                 padding: 1rem;
+                position: absolute;
+                bottom: 0;
+                width: 100%;
                 border-top: .15rem solid #000;
 
             }
