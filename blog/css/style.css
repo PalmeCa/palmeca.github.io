@@ -151,8 +151,8 @@
             /* Footer */
             footer {
                 padding: 1rem;
-                border-top: 2rem solid #333;
-                text-align: bottom;
+                border-top: .15rem solid #000;
+
             }
 /*
             - text-decoration, text-align
