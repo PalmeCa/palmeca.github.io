@@ -32,6 +32,7 @@
             }
             h1 {
                 text-transform: uppercase;
+                padding: 3rem;
                 font-size:3rem;
                 margin: 0;
                 letter-spacing: .5rem;
@@ -62,6 +63,7 @@
                 border-top: .15rem solid #000;
                 border-bottom: .15rem solid #000;
                 font-family:'Roboto',sans-serif;
+                padding: 2rem;
             }
 
             h3 {
@@ -114,12 +116,7 @@
             }
             
             /* Image & Figure */
-            
-            figure {
-            
-                margin-bottom:2rem;
-            
-            }
+           
             
             figcaption {
             
