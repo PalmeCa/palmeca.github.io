@@ -61,14 +61,13 @@
                 .leftcolumn {
                     float: left;
                     width: 75%;
-                    text-wrap: justify;
                 }
                 
                 /* Right column */
                 .rightcolumn {
                     float: left;
                     width: 25%;
-                    padding: 10px;
+                    padding: 20px;
                 }
 
             nav {
