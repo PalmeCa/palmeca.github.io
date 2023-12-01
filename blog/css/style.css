@@ -33,6 +33,7 @@
 
             aside {
                 text-align: right;
+                
                }
 
             h1 {
@@ -111,6 +112,12 @@
                 margin-top:.5rem;
             
             }
+            
+            subsection {
+                    float: left;
+                    width: 33.33%;
+                    padding: 5px;
+                  }
             
             /* Image & Figure */
             
