@@ -84,6 +84,11 @@
                 padding: 2rem;
             }
 
+            p { 
+                text-align: justify; 
+                font-size: 12px; 
+              } 
+
             h3 {
                 font: size 12px;
                 margin: 0;
