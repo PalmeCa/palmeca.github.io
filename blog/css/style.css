@@ -30,16 +30,119 @@
                 font-style:normal;
                 font-weight:normal;
             }
-                h1 {
-                    text-transform: uppercase;
-                    font-size:6rem;
-                    margin: 0;
-                    letter-spacing: .5rem;
-                    color:darkred;
-                    text-shadow:.09375rem .09375rem .09375rem #000;
-                    font-family:'Josefine Slab', serif;
-                    text-align:center;
-                }
+            h1 {
+                text-transform: uppercase;
+                font-size:6rem;
+                margin: 0;
+                letter-spacing: .5rem;
+                color:darkred;
+                text-shadow:.09375rem .09375rem .09375rem #000;
+                /*font-family:'Alfa Slab One', Garamond, serif;*/
+                text-align:center;
+            }
+            
+            h2 {
+                text-transform: uppercase;
+                font-size:3rem;
+                margin: 0;
+                letter-spacing: .25rem;
+                color:darkred;
+                text-shadow:.09375rem .09375rem .09375rem #000;
+                /*font-family:'Alfa Slab One', Garamond, serif;*/
+                text-align:center;
+                font-weight: normal;
+            
+            }
+            
+            h3 {
+                text-transform: uppercase;
+                font-size:2rem;
+                margin: 0;
+                letter-spacing: .5rem;
+                color:#000;
+               /* font-family:'Alfa Slab One', Garamond, serif;*/
+                text-align:center;
+                font-weight: normal;
+                
+            }
+            
+            h4 {
+                text-transform: uppercase;
+                font-size:1.5rem;
+                margin: 0;
+                letter-spacing: .25rem;
+                color:darkred;
+                text-shadow:.09375rem .09375rem .09375rem #000;
+                text-align:center;
+                padding-bottom:1.125rem;
+            }
+            
+            h4 > span{
+                padding-top: 0rem;
+                padding-bottom: 0rem;
+                padding-left: 0.5rem;
+                Padding-right: 0.5rem;
+            }
+            
+            h5 {
+             
+                font-size:1rem;
+                margin-top:.25rem;
+                padding:.5rem;
+                background-color: #333;
+                color:#FFF;
+                text-align:center;
+                font-weight: normal;
+            
+            }
+            
+            
+            /* Section & Paragraph */
+            
+            section {
+            
+                margin-top:.5rem;
+            
+            }
+            
+            p {
+            
+                margin:1rem auto;
+                padding:0 1rem;
+                width:90%;
+                text-align: left;
+            
+            }
+            
+            
+            /* Image & Figure */
+            
+            figure {
+            
+                margin-bottom:2rem;
+            
+            }
+            
+            figcaption {
+            
+                padding-top:.5rem;
+                text-align: right;
+            
+            }
+            
+            img {
+            
+                width:100%;
+                margin:0 auto;
+                max-width:50rem;
+            
+            }
+            
+            /* Footer */
+            footer {
+                padding: 1rem;
+                border-top: 2rem solid #333;
+            }
 /*
             - text-decoration, text-align
 
