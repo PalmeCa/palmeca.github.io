@@ -51,7 +51,6 @@
                 /*font-family:'Alfa Slab One', Garamond, serif;*/
                 text-align:center;
                 font-weight: normal;
-                border-top: .5rem solid #333;
             }
 
             nav {
@@ -61,8 +60,8 @@
                 letter-spacing: 1rem;
                 color:#000;
                 text-align:left;
-                border-top: .5rem solid #333;
-                border-bottom: .5rem solid #333;
+                border-top: .5rem solid #000;
+                border-bottom: .5rem solid #000;
             }
 
             h3 {
