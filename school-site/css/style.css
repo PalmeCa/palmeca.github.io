@@ -174,16 +174,16 @@ a:focus {
 /* List Styling */
 
 ul {
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
     margin-left: 0rem;
     margin-right: 0rem;
     list-style-type: square;
 }
 
 ol {
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
     margin-left: 0rem;
     margin-right: 0rem;
     list-style-type: lower-alpha;
