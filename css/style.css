@@ -19,7 +19,7 @@ body {
 } 
 
 header {
-    border-bottom: .0625rem solid #333;
+    border-bottom: .0625rem solid #000;
     margin-bottom:4rem;
     padding-bottom:2rem;
   
@@ -28,9 +28,9 @@ header {
 h1 {
     font-size: 6rem;
     font-weight:100;
-    color: #333;
+    color: #000;
     font-family: Lato, sans-serif;
-    text-shadow:2px 2px 3px #333;      
+    text-shadow:2px 2px 3px #000;      
     margin:0;
 }
 
@@ -54,8 +54,8 @@ p, li {
 
 blockquote {
     
-    border-top:.0625rem solid #333;
-    border-bottom:.0625rem solid #333;
+    border-top:.0625rem solid #000;
+    border-bottom:.0625rem solid #000;
     margin:2rem 0;
     padding:2rem 4rem;
     text-align:center;
@@ -68,14 +68,14 @@ nav {
       flex-wrap:wrap;
       flex-direction: column;
       width:14rem;
-      border:.0625rem solid #333;
+      border:.0625rem solid #000;
       background-color:#8FB0D0;
-      position:fixed;
+      position:static;
 }
 
 nav img {
     width:100%;
-    border-bottom:.0625rem solid #333;
+    border-bottom:.0625rem solid #000;
 }
 
 nav p {
@@ -84,7 +84,7 @@ nav p {
     font-size:.75rem;
     background-color:#242F40;
     color:#B1BED3;
-    border-top:.0625rem solid #333;
+    border-top:.0625rem solid #000;
 }
 
 nav p a {
@@ -99,7 +99,7 @@ figcaption a:hover {
 }
 
 nav ul {
-    border-bottom:.0625rem solid #333;
+    border-bottom:.0625rem solid #000;
     list-style-type:none;
     margin:0;
     padding:0;
@@ -111,7 +111,7 @@ nav ul a {
     line-height: 1.7;
     padding:.75rem 1.25rem;
     text-decoration: none;
-    color: #333;
+    color: #000;
     font-family:'Roboto', sans-serif;
 }
 
@@ -121,20 +121,20 @@ nav :nth-child(2) {
 
 nav a:hover {
   color:#FFF;
-    background-color:#333;
+    background-color:#000;
 }
 
 nav a:active {
     color:#FFF;
     font-style: italic;
-    background-color:#333;
+    background-color:#000;
 }
 
 /* || main layout */
 
 main {
-    padding-left:2%;
-    padding-right:2%;
+    padding-left:5%;
+    padding-right:5%;
     margin-left:14rem;
 }
 
@@ -213,7 +213,7 @@ footer {
     clear:both;
     overflow:auto;
     margin:3% 2%;
-    border-top: 1px solid #333;
+    border-top: 1px solid #000;
 }
 
 .copyright {
