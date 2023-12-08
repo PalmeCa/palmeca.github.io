@@ -79,70 +79,146 @@ header, footer {
 
 /* Imported Typfaces */
 
-@font-face {font-family:Alfa Slab One;
-    src: url(../fonts/alfa-slab-one-regular.ttf);
+@font-face {
+    src:
+    url("../fonts/josefinslab-regular.ttf"), format("TrueType");
     font-style:normal;
-    font-weight:normal;
+    font-weight:400 normal;
+    font-family:JoseFinSlab;
 }
 
-@font-face {font-family:Lato;
-    src: url(../fonts/lato-regular.ttf);
-    font-style: normal;
-    font-weight: normal;
+@font-face {
+    src:
+    url("../fonts/montserrat-regular.ttf"), format("TrueType");
+    font-style:normal;
+    font-weight:400 normal;
+    font-family:Montserrat;
+    
 }
+
+
 
 /* Typography Styles */
 
-html {}
+html {
 
-h1 {}
+    font-family:Montserrat, Arial, Helvetica, sans-serif;
 
-h2 {}
+}
 
-h2 + p {}
+h1,
+h2 {
+    letter-spacing:.125rem;
+    font-family:JoseFinSlab, Georgia, 'Times New Roman', Times, serif;
 
-p {}
+}
 
-li {}
+h1 {
 
-figcaption {}
+    font-size:3.75rem;
+    margin:1.125rem;
+    text-align: center;
 
+}
+
+h2 {
+
+    font-size:1.5rem;
+
+}
+
+h2 + p {
+
+    text-indent: 1.5rem;
+
+}
+
+p,
+li {
+
+    font-size: 0.75rem;
+    letter-spacing: .03125rem;
+    word-spacing: .125rem;
+
+}
+
+figcaption {
+
+    font-size:.75rem;
+    margin-bottom:2rem;
+
+}
 
 /* Link Styling */
 
-a {}
+a {
+
+    text-decoration: none;
+
+}
 
 a:link,
-a:visited {}
+a:visited {
 
-a:focus,
-a:hover {}
+    color:#33658A;
+
+}
+
+a:hover,
+a:focus {
+
+    text-decoration: none;
+
+}
+
+
+
+
 
 
 /* List Styling */
 
-ul {}
 
-ol {}
 
-.long-list a:hover {}
+
 
 
 /* Navigation Menu */
 
-nav {}
+nav {
 
-nav a {}
+    padding-left:0;
+    margin-top:.25rem;
 
-nav a:focus,
-nav a:hover {}
+}
 
-nav a:active {}
+nav a {
+
+    display:inline-block;
+    width:100%;
+    line-height:3;
+    text-align: center;
+    font-size:1.125rem;
+    margin-bottom:1.5rem;
+    border:solid .0625rem #33658A;
+
+}
+
+nav a:hover {
+
+    background-color:#33658A;
+    color:#FFF;
+
+}
+
+
+
+
+
 
 
 /* Footer Styles */
 
-footer {}
 
 
 
