@@ -171,17 +171,27 @@ a:focus {
 
 }
 
-
-
-
-
-
 /* List Styling */
 
+ul {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-left: 0rem;
+    margin-right: 0rem;
+    list-style-type: square;
+}
 
+ol {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-left: 0rem;
+    margin-right: 0rem;
+    list-style-type: lower-alpha;
+}
 
-
-
+.long-list a:hover {
+    text-transform: uppercase;
+}
 
 /* Navigation Menu */
 
@@ -204,6 +214,10 @@ nav a {
 
 }
 
+nav a:focus {
+
+}
+
 nav a:hover {
 
     background-color:#33658A;
@@ -211,15 +225,16 @@ nav a:hover {
 
 }
 
+nav a:active{
 
-
-
-
+}
 
 
 /* Footer Styles */
 
 
+footer{
 
+}
 
 
