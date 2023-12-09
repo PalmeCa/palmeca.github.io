@@ -68,7 +68,7 @@ nav {
       flex-wrap:wrap;
       flex-direction: column;
       max-width: 14rem;
-      max-height: 36rem;
+      max-height: 34rem;
       border:.0625rem solid #000;
       background-color:#bdcbe9;
       position:static;
@@ -135,10 +135,10 @@ nav a:active {
 /* || main layout */
 
 main {
-    padding-left:2rem;
-    padding-right:2rem;
-    margin-left:0rem;
-    margin-right:0rem;
+    padding-left:3rem;
+    padding-right:3rem;
+    margin-left:1rem;
+    margin-right:1rem;
 }
 
 section {
@@ -168,14 +168,14 @@ figure {
 
 .fig-1 {
     
-    width:29%;
+    width:100%;
     margin-left:0;
     margin-right:0%;
 }
 
 .fig-2 {
     
-    width:29%;
+    width:100%;
     margin-right:0;
     margin-left:0%;
 }
@@ -223,6 +223,7 @@ article>p>a {
 /* || Footer Layout */
 
 footer {
+    text-align:center;
     clear:both;
     overflow:auto;
     margin:3% 2%;
