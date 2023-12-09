@@ -68,6 +68,7 @@ nav {
       flex-wrap:wrap;
       flex-direction: column;
       max-width: 14rem;
+      max-height: 36rem;
       border:.0625rem solid #000;
       background-color:#bdcbe9;
       position:static;
@@ -136,8 +137,8 @@ nav a:active {
 main {
     padding-left:5%;
     padding-right:5%;
-    margin-left:14rem;
-    margin-right:14rem;
+    margin-left:1rem;
+    margin-right:1rem;
 }
 
 section {
