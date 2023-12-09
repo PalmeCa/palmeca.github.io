@@ -83,18 +83,18 @@ nav p {
     padding:1rem;
     font-size:.75rem;
     background-color:#242F40;
-    color:#B1BED3;
+    color:#bdcbe9;
     border-top:.0625rem solid #000;
 }
 
 nav p a {
     
-    color:#B1BED3;
+    color:#bdcbe9;
 }
 
 nav p a:hover,
 figcaption a:hover {
-    color:#495F83;
+    color:#bdcbe9;
     text-decoration:none;
 }
 
@@ -121,14 +121,14 @@ nav :nth-child(2) {
 
 nav a:hover {
   color:#FFF;
-    background-color:#909090;
+    background-color:#bdcbe9;
     text-transform: uppercase;
 }
 
 nav a:active {
     color:#FFF;
     font-style: italic;
-    background-color:#87b5cc;
+    background-color:#bdcbe9;
 }
 
 /* || main layout */
