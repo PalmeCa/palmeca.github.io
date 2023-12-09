@@ -164,6 +164,7 @@ figure {
 .box {
     display:flex;
     flex-direction: row;
+    width:fit-content;
 }
 
 /* || Media */
