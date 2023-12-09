@@ -89,12 +89,12 @@ nav p {
 
 nav p a {
     
-    color:#bdcbe9;
+    color:#ffffff;
 }
 
 nav p a:hover,
 figcaption a:hover {
-    color:#bdcbe9;
+    color:#242F40;
     text-decoration:none;
 }
 
