@@ -226,6 +226,7 @@ article>p>a {
 /* || Footer Layout */
 
 footer {
+    width:100%;
     text-align:center;
     clear:both;
     overflow:auto;
