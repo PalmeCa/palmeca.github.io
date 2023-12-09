@@ -1,6 +1,21 @@
 /* || General Setup */
 
-@import url('https://fonts.googleapis.com/css?family=Lato:400,400i,900,900i|Roboto+Condensed:400,400i,700|Roboto:400,400i,900|Shadows+Into+Light');
+@font-face {
+    src:
+    url("..school-site/fonts/josefinslab-regular.ttf"), format("TrueType");
+    font-style:normal;
+    font-weight:400 normal;
+    font-family:JoseFinSlab;
+}
+
+@font-face {
+    src:
+    url("..school-site/fonts/montserrat-regular.ttf"), format("TrueType");
+    font-style:normal;
+    font-weight:400 normal;
+    font-family:Montserrat;
+    
+}
 
 html {
     margin: 0;
@@ -30,7 +45,7 @@ h1 {
     font-size: 6rem;
     font-weight:100;
     color: #000;
-    font-family: Lato, sans-serif;
+    font-family:'JoseFinSlab', serif;
     /*text-shadow:2px 2px 3px #000;*/      
     margin:0;
     text-align: center;
@@ -45,7 +60,7 @@ h2 {
     font-size:2rem;
     margin-top:0;
     font-weight:100;
-    font-family:'Lato', sans-serif;
+    font-family: 'Monsterrat', sans-serif;
     
 }
 
@@ -115,7 +130,7 @@ nav ul a {
     padding:.75rem 1.25rem;
     text-decoration: none;
     color: #000;
-    font-family:'Roboto', sans-serif;
+    font-family: 'Monsterrat', sans-serif;
 }
 
 nav :nth-child(2) {
