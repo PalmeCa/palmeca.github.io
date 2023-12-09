@@ -135,8 +135,8 @@ nav a:active {
 /* || main layout */
 
 main {
-    padding-left:3rem;
-    padding-right:3rem;
+    padding-left:4rem;
+    padding-right:4rem;
     margin-left:1rem;
     margin-right:1rem;
 }
@@ -168,14 +168,14 @@ figure {
 
 .fig-1 {
     
-    width:100%;
+    width:300%;
     margin-left:0;
     margin-right:0%;
 }
 
 .fig-2 {
     
-    width:100%;
+    width:300%;
     margin-right:0;
     margin-left:0%;
 }
