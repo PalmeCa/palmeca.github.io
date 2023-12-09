@@ -135,10 +135,10 @@ nav a:active {
 /* || main layout */
 
 main {
-    padding-left:5%;
-    padding-right:5%;
-    margin-left:1rem;
-    margin-right:1rem;
+    padding-left:2rem;
+    padding-right:2rem;
+    margin-left:0rem;
+    margin-right:0rem;
 }
 
 section {
@@ -151,6 +151,7 @@ aside {
     vertical-align: top;
     flex-wrap: wrap;
     flex-direction: column;
+    width: 14rem;
 }
 
 figure {
