@@ -157,6 +157,11 @@ figure {
     background-color:#242F40;
 }
 
+.box {
+    display:flex;
+    flex-direction: row;
+}
+
 /* || Media */
 
 .fig-1 {
