@@ -11,11 +11,12 @@ html {
 
 body {
     max-width:1200px;
+    width:30%;
     margin:0 auto;
     padding:1rem 2rem;    
     color:#111;
     font-family: 'Roboto Condensed', sans-serif;
-       
+    float: left;
 } 
 
 header {
@@ -67,7 +68,8 @@ nav {
       display: flex;
       flex-wrap:wrap;
       flex-direction: column;
-      width:14rem;
+      width:30%;
+      max-width: 14rem;
       border:.0625rem solid #000;
       background-color:#bdcbe9;
       position:static;
@@ -145,7 +147,8 @@ section {
 }
 
 aside {
-    float:right;
+    float:left;
+    width: 30%;
     display:flex;
     vertical-align: top;
     flex-wrap: wrap;
