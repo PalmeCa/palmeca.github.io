@@ -147,6 +147,7 @@ section {
 aside {
     float:right;
     display:flex;
+    vertical-align: top;
     flex-wrap: wrap;
     flex-direction: column;
 }
@@ -162,14 +163,14 @@ figure {
     
     width:29%;
     margin-left:0;
-    margin-right:1%;
+    margin-right:0%;
 }
 
 .fig-2 {
     
     width:29%;
     margin-right:0;
-    margin-left:1%;
+    margin-left:0%;
 }
 
 figure img {
